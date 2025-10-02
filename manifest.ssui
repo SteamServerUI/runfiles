@@ -15,7 +15,7 @@
     "background_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/544550/header.jpg?t=1738899337",
     "logo_url": "https://some-cdn.com/stationeers-logo.png",
     "supported_os": "all",
-    "min_version": "6.2.0"
+    "min_version": "5.7.0"
   },
   {
     "name": "Satisfactory",

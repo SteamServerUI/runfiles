@@ -18,6 +18,15 @@
     "min_version": "5.7.0"
   },
   {
+    "name": "StationeersNewTerrain",
+    "filename": "runStationeersNewTerrain.ssui",
+    "version": "2.0",
+    "background_url": "https://clan.akamai.steamstatic.com/images/28304711/445a707e52dc3280733b629a3e7b27a990481298_960x311.png",
+    "logo_url": "https://some-cdn.com/stationeers-logo.png",
+    "supported_os": "all",
+    "min_version": "5.7.0"
+  },
+  {
     "name": "Satisfactory",
     "filename": "runSatisfactory.ssui",
     "version": "1.0",

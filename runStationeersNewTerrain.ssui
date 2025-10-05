@@ -1,25 +1,12 @@
 {
   "meta": {
     "name": "StationeersNewTerrain",
-    "version": "2.1"
+    "version": "2.2"
   },
   "steam_app_id": "600760",
   "windows_executable": "./rocketstation_DedicatedServer.exe",
   "linux_executable": "./rocketstation_DedicatedServer.x86_64",
   "args": {
-    "advanced": [
-      {
-        "flag": "AutoPauseServer",
-        "value": "true",
-        "required": true,
-        "requires_value": true,
-        "description": "Automatically pause server when empty",
-        "type": "bool",
-        "ui_label": "Auto Pause",
-        "ui_group": "Advanced",
-        "weight": 310
-      }
-    ],
     "basic": [
       {
         "flag": "-nographics",
@@ -46,7 +33,7 @@
         "weight": 20
       },
       {
-        "flag": "-file start",
+        "flag": "-file",
         "value": "",
         "required": true,
         "requires_value": false,
@@ -55,7 +42,19 @@
         "special": "hide_in_ui",
         "ui_label": "Base command",
         "ui_group": "Basic",
-        "weight": 30
+        "weight": 25
+      },
+      {
+        "flag": "start",
+        "value": "",
+        "required": true,
+        "requires_value": false,
+        "description": "Base command to load the game",
+        "type": "string",
+        "special": "hide_in_ui",
+        "ui_label": "Base command",
+        "ui_group": "Basic",
+        "weight": 26
       },
       {
         "flag": "SaveName",
@@ -304,6 +303,19 @@
         "ui_label": "Local IP Address",
         "ui_group": "Network",
         "weight": 240
+      }
+    ],
+    "special": [
+      {
+        "flag": "AutoPauseServer",
+        "value": "true",
+        "required": true,
+        "requires_value": true,
+        "description": "Automatically pause server when empty",
+        "type": "bool",
+        "ui_label": "Auto Pause",
+        "ui_group": "Advanced",
+        "weight": 310
       }
     ]
   }

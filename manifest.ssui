@@ -15,7 +15,25 @@
     "background_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/544550/header.jpg",
     "logo_url": "https://some-cdn.com/stationeers-logo.png",
     "supported_os": "all",
-    "min_version": "5.7.0"
+    "min_version": "5.7.0",
+    "recommended_settings": [
+        {
+          "name": "IsSSCMEnabled",
+          "boolValue": true,
+          "supported_os": "all"
+        },
+        {
+          "name": "IsBepInExEnabled",
+          "boolValue": true,
+          "supported_os": "all"
+        },
+    ],
+  "recommended_plugins": [
+        {
+          "name": "StationeersBackupManager",
+          "supported_os": "linux"
+        }
+      ]
   },
   {
     "name": "StationeersNewTerrain",

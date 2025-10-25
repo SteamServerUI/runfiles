@@ -1,16 +1,48 @@
 [
   {
+    "name": "Stationeers",
+    "filename": "runStationeers.ssui",
+    "version": "3.0",
+    "background_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/544550/header.jpg",
+    "logo_url": "https://some-cdn.com/stationeers-logo.png",
+    "supported_os": "all",
+    "min_version": "7.0.0",
+    "recommended_settings": [
+        {
+          "name": "IsSSCMEnabled",
+          "boolValue": true,
+          "supported_os": "all"
+        },
+        {
+          "name": "IsBepInExEnabled",
+          "boolValue": true,
+          "supported_os": "all"
+        },
+        {
+          "name": "GameLogFromLogFile",
+          "boolValue": true,
+          "supported_os": "linux"
+        },
+    ],
+    "recommended_plugins": [
+          {
+            "name": "StationeersBackupManager",
+            "supported_os": "linux"
+          }
+        ]
+    },
+  {
     "name": "Zomboid",
     "filename": "runZomboid.ssui",
     "version": "1.0",
     "background_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
     "logo_url": "https://some-cdn.com/zomboid-logo.png",
     "supported_os": "untested, all",
-    "min_version": "6.2.0"
+    "min_version": "99.99.99"
   },
   {
-    "name": "Stationeers",
-    "filename": "runStationeers.ssui",
+    "name": "StationeersLegacy",
+    "filename": "runStationeersLegacy.ssui",
     "version": "1.0",
     "background_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/544550/header.jpg",
     "logo_url": "https://some-cdn.com/stationeers-logo.png",
@@ -28,40 +60,13 @@
           "supported_os": "all"
         }
     ],
-  "recommended_plugins": [
-        {
-          "name": "StationeersBackupManager",
-          "supported_os": "linux"
-        }
-      ]
-  },
-  {
-    "name": "StationeersNewTerrain",
-    "filename": "runStationeersNewTerrain.ssui",
-    "version": "2.0",
-    "background_url": "https://clan.akamai.steamstatic.com/images/28304711/445a707e52dc3280733b629a3e7b27a990481298_960x311.png",
-    "logo_url": "https://some-cdn.com/stationeers-logo.png",
-    "supported_os": "all",
-    "min_version": "5.7.0",
-    "recommended_settings": [
-        {
-          "name": "IsSSCMEnabled",
-          "boolValue": true,
-          "supported_os": "all"
-        },
-        {
-          "name": "IsBepInExEnabled",
-          "boolValue": true,
-          "supported_os": "all"
-        }
-    ],
-  "recommended_plugins": [
-        {
-          "name": "StationeersBackupManager",
-          "supported_os": "linux"
-        }
-      ]
-  },
+    "recommended_plugins": [
+          {
+            "name": "StationeersBackupManager",
+            "supported_os": "linux"
+          }
+        ]
+    },
   {
     "name": "Satisfactory",
     "filename": "runSatisfactory.ssui",
@@ -69,7 +74,7 @@
     "background_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/526870/header.jpg",
     "logo_url": "https://some-cdn.com/satisfactory-logo.png",
     "supported_os": "all",
-    "min_version": "6.2.0"
+    "min_version": "7.0.0"
   },
   {
     "name": "TheForrest",
@@ -78,7 +83,7 @@
     "background_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg",
     "logo_url": "https://some-cdn.com/theforrest-logo.png",
     "supported_os": "untested, all",
-    "min_version": "6.2.0"
+    "min_version": "99.99.99"
   },
   {
     "name": "GarrysMod",
@@ -87,7 +92,7 @@
     "background_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4000/header.jpg",
     "logo_url": "https://some-cdn.com/garrysmod-logo.png",
     "supported_os": "untested, all",
-    "min_version": "6.2.0"
+    "min_version": "99.99.99"
   },
   {
     "name": "Valheim",
@@ -96,7 +101,7 @@
     "background_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/892970/header.jpg",
     "logo_url": "https://some-cdn.com/valheim-logo.png",
     "supported_os": "untested, all",
-    "min_version": "6.2.0"
+    "min_version": "99.99.99"
   },
   {
     "name": "ARK",
@@ -105,7 +110,7 @@
     "background_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg",
     "logo_url": "https://some-cdn.com/ark-logo.png",
     "supported_os": "untested, all",
-    "min_version": "6.2.0"
+    "min_version": "99.99.99"
   },
   {
     "name": "CS2", 
@@ -114,7 +119,7 @@
     "background_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/730/header.jpg",
     "logo_url": "https://some-cdn.com/cs2-logo.png",
     "supported_os": "untested, all",
-    "min_version": "6.2.0"
+    "min_version": "99.99.99"
   },
   {
     "name": "Terraria",
@@ -123,7 +128,7 @@
     "background_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg",
     "logo_url": "https://some-cdn.com/terraria-logo.png",
     "supported_os": "untested, all",
-    "min_version": "6.2.0"
+    "min_version": "99.99.99"
   },
   {
     "name": "Rust",
@@ -132,7 +137,7 @@
     "background_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg",
     "logo_url": "https://some-cdn.com/rust-logo.png",
     "supported_os": "untested, all",
-    "min_version": "6.2.0"
+    "min_version": "99.99.99"
   },
   {
     "name": "7DaysToDie",
@@ -141,7 +146,7 @@
     "background_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/251570/header.jpg",
     "logo_url": "https://some-cdn.com/7daystodie-logo.png",
     "supported_os": "untested, all",
-    "min_version": "6.2.0"
+    "min_version": "99.99.99"
   },
   {
     "name": "DontStarveTogether",
@@ -150,6 +155,6 @@
     "background_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/322330/header.jpg",
     "logo_url": "https://some-cdn.com/dontstarvetogether-logo.png",
     "supported_os": "untested, all",
-    "min_version": "6.2.0"
+    "min_version": "99.99.99"
   }
 ]

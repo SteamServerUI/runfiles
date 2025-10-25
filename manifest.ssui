@@ -22,7 +22,7 @@
           "name": "GameLogFromLogFile",
           "boolValue": true,
           "supported_os": "linux"
-        },
+        }
     ],
     "recommended_plugins": [
           {

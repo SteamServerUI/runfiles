@@ -3,9 +3,10 @@
     "name": "Stationeers",
     "version": "3.0",
     "author": "JacksonTheMaster",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
-    "logo": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg"
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/544550/ss_161a5c67cdd6c03fbf49d525d31dd9a706c886e0.600x338.jpg",
+    "logo": "https://avatars.akamai.steamstatic.com/34603c00dbef13d4ef0f9bc873925cc4954e2457_full.jpg"
   },
+  "backup_content_dir": "./Stationeers/saves",
   "steam_app_id": "600760",
   "windows_executable": "./rocketstation_DedicatedServer.exe",
   "linux_executable": "./rocketstation_DedicatedServer.x86_64",
@@ -125,8 +126,8 @@
         "required": false,
         "requires_value": true,
         "description": "Log file path",
-        "special": "hide_in_ui",
         "type": "string",
+        "special": "hide_in_ui",
         "ui_label": "Log File path",
         "ui_group": "Basic",
         "weight": 40,

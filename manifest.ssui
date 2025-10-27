@@ -27,7 +27,7 @@
     "recommended_plugins": [
           {
             "name": "StationeersBackupManager",
-            "supported_os": "linux"
+            "supported_os": "all"
           }
         ]
     },

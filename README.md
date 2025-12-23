@@ -31,3 +31,6 @@ With a gallery of well-written runfiles, users can select a game from SSUIs runf
 
 ### Complete Runfiles
 - [Full Example](https://github.com/SteamServerUI/runfiles/wiki/Full-Runfile-Example)
+
+### The Runfile gallery
+- [Contributing to the runfile gallery](https://github.com/SteamServerUI/runfiles/blob/main/CONTRIBUTING.md)
